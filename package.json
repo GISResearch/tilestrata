@@ -1,6 +1,6 @@
 {
-  "name": "tilestrata",
-  "version": "2.1.2",
+  "name": "@younghappy/tilestrata",
+  "version": "2.1.4",
   "description": "A pluggable map tile server.",
   "license": "Apache-2.0",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/naturalatlas/tilestrata.git"
+    "url": "https://github.com/GISResearch/tilestrata.git"
   },
   "keywords": [
     "map",
@@ -20,9 +20,9 @@
     "layers"
   ],
   "bugs": {
-    "url": "https://github.com/naturalatlas/tilestrata/issues"
+    "url": "https://github.com/GISResearch/tilestrata/issues"
   },
-  "homepage": "https://github.com/naturalatlas/tilestrata",
+  "homepage": "https://github.com/GISResearch/tilestrata",
   "dependencies": {
     "async": "1.4.2",
     "basic-auth": "1.0.3",
@@ -44,5 +44,8 @@
   },
   "optionalDependencies": {
     "microtime": "^2.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
